@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
-
 import { nav } from "@commerce-trading/nav";
+
+import { CommerceDropdownModule } from 'trading-category/category-dropdown';
 
 @Component({
   selector: 'app-root',
