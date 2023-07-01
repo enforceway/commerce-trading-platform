@@ -1,0 +1,23 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "outFile": "./dist/client/trade-integration.js",
+        "target": "ES6",
+        "alwaysStrict": true,
+        "baseUrl": ".",
+        "importHelpers": true,
+        "module": "commonjs",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "preserveConstEnums": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "sourceMap": false,
+        "strictNullChecks": true,
+        "types": [
+            "node"
+        ]
+    }
+}

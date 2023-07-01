@@ -1,0 +1,6 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "outFile": "../dist/client/trade-integrator.bundle.js",
+    }
+}

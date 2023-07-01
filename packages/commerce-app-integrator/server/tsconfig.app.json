@@ -1,0 +1,33 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "outDir":"../dist",
+        "alwaysStrict": true,
+        // "baseUrl": ".",
+        "importHelpers": true,
+        "module": "CommonJS",
+        "noFallthroughCasesInSwitch": true,
+        // "noImplicitAny": false,
+        // "noImplicitReturns": true,
+        // "noImplicitThis": true,
+        "preserveConstEnums": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "sourceMap": false,
+        "strictNullChecks": true,
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": ["**/*.spec.ts", "**/*.e2e.ts", "**/*.d.ts", ""],
+    "include": ["./**/*", "../config/**/*", "../public"],
+    "ts-node": {
+        // it is faster to skip typechecking.
+        "transpileOnly": true,
+        "files": true,
+        "compilerOptions": {
+            "module": "CommonJS",
+            "outDir": "../dist"
+        }
+    }
+}
